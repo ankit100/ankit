@@ -1,7 +1,7 @@
 var  express = require('express');
 var  app = express();
 var  mongojs = require('mongojs');
-var  db = mongojs('mongodb://ankit100:ankit45@ds061518.mongolab.com:61518/ankit',['contactlist']);
+var  db = mongojs('mongodb://ankit:ankit45@ds061518.mongolab.com:61518/ankit',['contactlist']);
 var  bodyparser = require('body-parser');
 
 
